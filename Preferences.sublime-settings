@@ -1,0 +1,12 @@
+{
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+  "spell_check": true,
+  "dictionary": "Packages/Language - English/en_GB.dic",
+  "highlight_line": true,
+  "use_simple_full_screen": true
+}
