@@ -2,6 +2,8 @@
 	"installed_packages":
 	[
 		"GL Shader Validator",
-		"OpenGL Shading Language (GLSL)"
+		"OpenGL Shading Language (GLSL)",
+		"Package Control",
+		"SideBarEnhancements"
 	]
 }
