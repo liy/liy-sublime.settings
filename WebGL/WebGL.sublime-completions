@@ -1,0 +1,1040 @@
+{
+  "scope": "source.js, source.js.embedded.html",
+  "version": "r0",
+  "completions":
+  [
+    /* Typed Array */
+    "Int8Array",
+    "Uint8Array",
+    "Int16Array",
+    "Uint16Array",
+    "Int32Array",
+    "Uint32Array",
+    "Float32Array",
+    "Float64Array",
+
+    /* ClearBufferMask */
+    "DEPTH_BUFFER_BIT",
+    "STENCIL_BUFFER_BIT",
+    "COLOR_BUFFER_BIT",
+     
+    /* BeginMode */
+    "POINTS",
+    "LINES",
+    "LINE_LOOP",
+    "LINE_STRIP",
+    "TRIANGLES",
+    "TRIANGLE_STRIP",
+    "TRIANGLE_FAN",
+     
+    /* AlphaFunction (not supported in ES20) */
+    /*      NEVER */
+    /*      LESS */
+    /*      EQUAL */
+    /*      LEQUAL */
+    /*      GREATER */
+    /*      NOTEQUAL */
+    /*      GEQUAL */
+    /*      ALWAYS */
+     
+    /* BlendingFactorDest */
+    "ZERO",
+    "ONE",
+    "SRC_COLOR",
+    "ONE_MINUS_SRC_COLOR",
+    "SRC_ALPHA",
+    "ONE_MINUS_SRC_ALPHA",
+    "DST_ALPHA",
+    "ONE_MINUS_DST_ALPHA",
+     
+    /* BlendingFactorSrc */
+    /*      ZERO */
+    /*      ONE */
+    "DST_COLOR",
+    "ONE_MINUS_DST_COLOR",
+    "SRC_ALPHA_SATURATE",
+    /*      SRC_ALPHA */
+    /*      ONE_MINUS_SRC_ALPHA */
+    /*      DST_ALPHA */
+    /*      ONE_MINUS_DST_ALPHA */
+     
+    /* BlendEquationSeparate */
+    "FUNC_ADD",
+    "BLEND_EQUATION",
+    "BLEND_EQUATION_RGB",  /* same as BLEND_EQUATION */
+    "BLEND_EQUATION_ALPHA",
+     
+    /* BlendSubtract */
+    "FUNC_SUBTRACT",
+    "FUNC_REVERSE_SUBTRACT",
+     
+    /* Separate Blend Functions */
+    "BLEND_DST_RGB",
+    "BLEND_SRC_RGB",
+    "BLEND_DST_ALPHA",
+    "BLEND_SRC_ALPHA",
+    "CONSTANT_COLOR",
+    "ONE_MINUS_CONSTANT_COLOR",
+    "CONSTANT_ALPHA",
+    "ONE_MINUS_CONSTANT_ALPHA",
+    "BLEND_COLOR",
+     
+    /* Buffer Objects */
+    "ARRAY_BUFFER",
+    "ELEMENT_ARRAY_BUFFER",
+    "ARRAY_BUFFER_BINDING",
+    "ELEMENT_ARRAY_BUFFER_BINDING",
+     
+    "STREAM_DRAW",
+    "STATIC_DRAW",
+    "DYNAMIC_DRAW",
+     
+    "BUFFER_SIZE",
+    "BUFFER_USAGE",
+     
+    "CURRENT_VERTEX_ATTRIB",
+     
+    /* CullFaceMode */
+    "FRONT",
+    "BACK",
+    "FRONT_AND_BACK",
+     
+    /* DepthFunction */
+    /*      NEVER */
+    /*      LESS */
+    /*      EQUAL */
+    /*      LEQUAL */
+    /*      GREATER */
+    /*      NOTEQUAL */
+    /*      GEQUAL */
+    /*      ALWAYS */
+     
+    /* EnableCap */
+    /* TEXTURE_2D */
+    "CULL_FACE",
+    "BLEND",
+    "DITHER",
+    "STENCIL_TEST",
+    "DEPTH_TEST",
+    "SCISSOR_TEST",
+    "POLYGON_OFFSET_FILL",
+    "SAMPLE_ALPHA_TO_COVERAGE",
+    "SAMPLE_COVERAGE",
+     
+    /* ErrorCode */
+    "NO_ERROR",
+    "INVALID_ENUM",
+    "INVALID_VALUE",
+    "INVALID_OPERATION",
+    "OUT_OF_MEMORY",
+     
+    /* FrontFaceDirection */
+    "CW",
+    "CCW",
+     
+    /* GetPName */
+    "LINE_WIDTH",
+    "ALIASED_POINT_SIZE_RANGE",
+    "ALIASED_LINE_WIDTH_RANGE",
+    "CULL_FACE_MODE",
+    "FRONT_FACE",
+    "DEPTH_RANGE",
+    "DEPTH_WRITEMASK",
+    "DEPTH_CLEAR_VALUE",
+    "DEPTH_FUNC",
+    "STENCIL_CLEAR_VALUE",
+    "STENCIL_FUNC",
+    "STENCIL_FAIL",
+    "STENCIL_PASS_DEPTH_FAIL",
+    "STENCIL_PASS_DEPTH_PASS",
+    "STENCIL_REF",
+    "STENCIL_VALUE_MASK",
+    "STENCIL_WRITEMASK",
+    "STENCIL_BACK_FUNC",
+    "STENCIL_BACK_FAIL",
+    "STENCIL_BACK_PASS_DEPTH_FAIL",
+    "STENCIL_BACK_PASS_DEPTH_PASS",
+    "STENCIL_BACK_REF",
+    "STENCIL_BACK_VALUE_MASK",
+    "STENCIL_BACK_WRITEMASK",
+    "VIEWPORT",
+    "SCISSOR_BOX",
+    /*      SCISSOR_TEST */
+    "COLOR_CLEAR_VALUE",
+    "COLOR_WRITEMASK",
+    "UNPACK_ALIGNMENT",
+    "PACK_ALIGNMENT",
+    "MAX_TEXTURE_SIZE",
+    "MAX_VIEWPORT_DIMS",
+    "SUBPIXEL_BITS",
+    "RED_BITS",
+    "GREEN_BITS",
+    "BLUE_BITS",
+    "ALPHA_BITS",
+    "DEPTH_BITS",
+    "STENCIL_BITS",
+    "POLYGON_OFFSET_UNITS",
+    /*      POLYGON_OFFSET_FILL */
+    "POLYGON_OFFSET_FACTOR",
+    "TEXTURE_BINDING_2D",
+    "SAMPLE_BUFFERS",
+    "SAMPLES",
+    "SAMPLE_COVERAGE_VALUE",
+    "SAMPLE_COVERAGE_INVERT",
+     
+    /* GetTextureParameter */
+    /*      TEXTURE_MAG_FILTER */
+    /*      TEXTURE_MIN_FILTER */
+    /*      TEXTURE_WRAP_S */
+    /*      TEXTURE_WRAP_T */
+     
+    "COMPRESSED_TEXTURE_FORMATS",
+     
+    /* HintMode */
+    "DONT_CARE",
+    "FASTEST",
+    "NICEST",
+     
+    /* HintTarget */
+    "GENERATE_MIPMAP_HINT",
+     
+    /* DataType */
+    "BYTE",
+    "UNSIGNED_BYTE",
+    "SHORT",
+    "UNSIGNED_SHORT",
+    "INT",
+    "UNSIGNED_INT",
+    "FLOAT",
+     
+    /* PixelFormat */
+    "DEPTH_COMPONENT",
+    "ALPHA",
+    "RGB",
+    "RGBA",
+    "LUMINANCE",
+    "LUMINANCE_ALPHA",
+     
+    /* PixelType */
+    /*      UNSIGNED_BYTE */
+    "UNSIGNED_SHORT_4_4_4_4",
+    "UNSIGNED_SHORT_5_5_5_1",
+    "UNSIGNED_SHORT_5_6_5",
+     
+    /* Shaders */
+    "FRAGMENT_SHADER",
+    "VERTEX_SHADER",
+    "MAX_VERTEX_ATTRIBS",
+    "MAX_VERTEX_UNIFORM_VECTORS",
+    "MAX_VARYING_VECTORS",
+    "MAX_COMBINED_TEXTURE_IMAGE_UNITS",
+    "MAX_VERTEX_TEXTURE_IMAGE_UNITS",
+    "MAX_TEXTURE_IMAGE_UNITS",
+    "MAX_FRAGMENT_UNIFORM_VECTORS",
+    "SHADER_TYPE",
+    "DELETE_STATUS",
+    "LINK_STATUS",
+    "VALIDATE_STATUS",
+    "ATTACHED_SHADERS",
+    "ACTIVE_UNIFORMS",
+    "ACTIVE_ATTRIBUTES",
+    "SHADING_LANGUAGE_VERSION",
+    "CURRENT_PROGRAM",
+     
+    /* StencilFunction */
+    "NEVER",
+    "LESS",
+    "EQUAL",
+    "LEQUAL",
+    "GREATER",
+    "NOTEQUAL",
+    "GEQUAL",
+    "ALWAYS",
+     
+    /* StencilOp */
+    /*      ZERO */
+    "KEEP",
+    "REPLACE",
+    "INCR",
+    "DECR",
+    "INVERT",
+    "INCR_WRAP",
+    "DECR_WRAP",
+     
+    /* StringName */
+    "VENDOR",
+    "RENDERER",
+    "VERSION",
+     
+    /* TextureMagFilter */
+    "NEAREST",
+    "LINEAR",
+     
+    /* TextureMinFilter */
+    /*      NEAREST */
+    /*      LINEAR */
+    "NEAREST_MIPMAP_NEAREST",
+    "LINEAR_MIPMAP_NEAREST",
+    "NEAREST_MIPMAP_LINEAR",
+    "LINEAR_MIPMAP_LINEAR",
+     
+    /* TextureParameterName */
+    "TEXTURE_MAG_FILTER",
+    "TEXTURE_MIN_FILTER",
+    "TEXTURE_WRAP_S",
+    "TEXTURE_WRAP_T",
+     
+    /* TextureTarget */
+    "TEXTURE_2D",
+    "TEXTURE",
+     
+    "TEXTURE_CUBE_MAP",
+    "TEXTURE_BINDING_CUBE_MAP",
+    "TEXTURE_CUBE_MAP_POSITIVE_X",
+    "TEXTURE_CUBE_MAP_NEGATIVE_X",
+    "TEXTURE_CUBE_MAP_POSITIVE_Y",
+    "TEXTURE_CUBE_MAP_NEGATIVE_Y",
+    "TEXTURE_CUBE_MAP_POSITIVE_Z",
+    "TEXTURE_CUBE_MAP_NEGATIVE_Z",
+    "MAX_CUBE_MAP_TEXTURE_SIZE",
+     
+    /* TextureUnit */
+    "TEXTURE0",
+    "TEXTURE31",
+    "ACTIVE_TEXTURE",
+     
+    /* TextureWrapMode */
+    "REPEAT",
+    "CLAMP_TO_EDGE",
+    "MIRRORED_REPEAT",
+     
+    /* Uniform Types */
+    "FLOAT_VEC2",
+    "FLOAT_VEC3",
+    "FLOAT_VEC4",
+    "INT_VEC2",
+    "INT_VEC3",
+    "INT_VEC4",
+    "BOOL",
+    "BOOL_VEC2",
+    "BOOL_VEC3",
+    "BOOL_VEC4",
+    "FLOAT_MAT2",
+    "FLOAT_MAT3",
+    "FLOAT_MAT4",
+    "SAMPLER_2D",
+    "SAMPLER_CUBE",
+     
+    /* Vertex Arrays */
+    "VERTEX_ATTRIB_ARRAY_ENABLED",
+    "VERTEX_ATTRIB_ARRAY_SIZE",
+    "VERTEX_ATTRIB_ARRAY_STRIDE",
+    "VERTEX_ATTRIB_ARRAY_TYPE",
+    "VERTEX_ATTRIB_ARRAY_NORMALIZED",
+    "VERTEX_ATTRIB_ARRAY_POINTER",
+    "VERTEX_ATTRIB_ARRAY_BUFFER_BINDING",
+     
+    /* Shader Source */
+    "COMPILE_STATUS",
+     
+    /* Shader Precision-Specified Types */
+    "LOW_FLOAT",
+    "MEDIUM_FLOAT",
+    "HIGH_FLOAT",
+    "LOW_INT",
+    "MEDIUM_INT",
+    "HIGH_INT",
+     
+    /* Framebuffer Object. */
+    "FRAMEBUFFER",
+    "RENDERBUFFER",
+     
+    "RGBA4",
+    "RGB5_A1",
+    "RGB565",
+    "DEPTH_COMPONENT16",
+    "STENCIL_INDEX",
+    "STENCIL_INDEX8",
+    "DEPTH_STENCIL",
+     
+    "RENDERBUFFER_WIDTH",
+    "RENDERBUFFER_HEIGHT",
+    "RENDERBUFFER_INTERNAL_FORMAT",
+    "RENDERBUFFER_RED_SIZE",
+    "RENDERBUFFER_GREEN_SIZE",
+    "RENDERBUFFER_BLUE_SIZE",
+    "RENDERBUFFER_ALPHA_SIZE",
+    "RENDERBUFFER_DEPTH_SIZE",
+    "RENDERBUFFER_STENCIL_SIZE",
+     
+    "FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE",
+    "FRAMEBUFFER_ATTACHMENT_OBJECT_NAME",
+    "FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL",
+    "FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE",
+     
+    "COLOR_ATTACHMENT0",
+    "DEPTH_ATTACHMENT",
+    "STENCIL_ATTACHMENT",
+    "DEPTH_STENCIL_ATTACHMENT",
+     
+    "NONE",
+     
+    "FRAMEBUFFER_COMPLETE",
+    "FRAMEBUFFER_INCOMPLETE_ATTACHMENT",
+    "FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT",
+    "FRAMEBUFFER_INCOMPLETE_DIMENSIONS",
+    "FRAMEBUFFER_UNSUPPORTED",
+     
+    "FRAMEBUFFER_BINDING",
+    "RENDERBUFFER_BINDING",
+    "MAX_RENDERBUFFER_SIZE",
+     
+    "INVALID_FRAMEBUFFER_OPERATION",
+     
+    /* WebGL-specific enums */
+    "UNPACK_FLIP_Y_WEBGL",
+    "UNPACK_PREMULTIPLY_ALPHA_WEBGL",
+    "CONTEXT_LOST_WEBGL",
+    "UNPACK_COLORSPACE_CONVERSION_WEBGL",
+    "BROWSER_DEFAULT_WEBGL",
+
+
+
+    {
+      "trigger": "activeTexture(texture)",
+      "contents": "activeTexture(${1:texture});$0"
+    },
+    {
+      "trigger": "attachShader(program,shader)",
+      "contents": "attachShader(${2:program}, ${1:shader});$0"
+    },
+    {
+      "trigger": "bindAttribLocation(program,index,name)",
+      "contents": "bindAttribLocation(${3:program}, ${1:index}, '${2:name}');$0"
+    },
+    {
+      "trigger": "bindBuffer(target,buffer)",
+      "contents": "bindBuffer(${1:target}, ${2:buffer});$0"
+    },
+    {
+      "trigger": "bindFramebuffer(target,framebuffer)",
+      "contents": "bindFramebuffer(${1:target}, ${2:framebuffer});$0"
+    },
+    {
+      "trigger": "bindRenderbuffer(target,renderbuffer)",
+      "contents": "bindRenderbuffer(${1:target}, ${2:renderbuffer});$0"
+    },
+    {
+      "trigger": "bindTexture(target,texture)",
+      "contents": "bindTexture(${1:target}, ${2:texture});$0"
+    },
+    {
+      "trigger": "blendColor(r,g,b,a)",
+      "contents": "blendColor(${1:1.0}, ${2:1.0}, ${3:1.0}, ${4:1.0});$0"
+    },
+    {
+      "trigger": "blendEquation(mode)",
+      "contents": "blendEquation(${1:mode});$0"
+    },
+    {
+      "trigger": "blendEquationSeparate(modeRGB,modeAlpha)",
+      "contents": "blendEquationSeparate(${1:modeRGB}, ${2:modeAlpha});$0"
+    },
+    {
+      "trigger": "blendFunc(sfactor,dfactor)",
+      "contents": "blendFunc(${1:sfactor}, ${2:dfactor});$0"
+    },
+    {
+      "trigger": "blendFuncSeparate(srcRGB,dstRGB,srcAlpha,dstAlpha)",
+      "contents": "blendFuncSeparate(${1:srcRGB}, ${2:dstRGB}, ${3:srcAlpha}, ${4:dstAlpha});$0"
+    },
+
+
+
+
+    {
+      "trigger": "bufferData(target, size, usage)",
+      "contents": "bufferData(${1:target}, ${2:size}, ${3:usage});$0"
+    },
+    {
+      "trigger": "bufferData(target, data, usage)",
+      "contents": "bufferData(${1:target}, ${2:data}, ${3:usage});$0"
+    },
+    {
+      "trigger": "bufferSubData(target, offset, data)",
+      "contents": "bufferSubData(${1:target}, ${2:offset}, ${3:data});$0"
+    },
+    {
+      "trigger": "checkFramebufferStatus",
+      "contents": "checkFramebufferStatus(${1:target});$0"
+    },
+    {
+      "trigger": "clear(mask)",
+      "contents": "clear(${1:mask});$0"
+    },
+    {
+      "trigger": "clearColor(r,g,b,a)",
+      "contents": "clearColor(${1:0.0}, ${2:0.0}, ${3:0.0}, ${4:1.0});$0"
+    },
+    {
+      "trigger": "clearDepth(depth)",
+      "contents": "clearDepth(${1:depth});$0"
+    },
+    {
+      "trigger": "clearStencil(index)",
+      "contents": "clearStencil(${1:index});$0"
+    },
+    {
+      "trigger": "colorMask(r,g,b,a)",
+      "contents": "colorMask(${1:1.0}, ${2:1.0}, ${3:1.0}, ${4:1.0});$0"
+    },
+    {
+      "trigger": "compileShader(shader)",
+      "contents": "compileShader(${1:shader});$0"
+    },
+    {
+      "trigger": "compressedTexImage2D(target,lvl,format,w,h,border,data)",
+      "contents": "compressedTexImage2D(${1:target}, ${2:level}, ${3:internalformat}, ${4:width}, ${5:height}, ${6:border}, ${7:data});$0"
+    },
+    {
+      "trigger": "compressedTexImage2D(target,lvl,x,y,w,h,format,data)",
+      "contents": "compressedTexImage2D(${1:target}, ${2:level}, ${3:xoffset}, ${4:yoffset}, ${5:width}, ${6:height}, ${7:format}, ${8:data});$0"
+    },
+    {
+      "trigger": "copyTexSubImage2D(target,lvl,format,x,y,w,h,border)",
+      "contents": "copyTexSubImage2D(${1:target}, ${2:level}, ${3:internalformat}, ${4:x}, ${5:y}, ${6:width}, ${7:height}, ${8:border});$0"
+    },
+    {
+      "trigger": "copyTexSubImage2D(target,lvl,format,x,y,w,h,border)",
+      "contents": "copyTexSubImage2D(${1:target}, ${2:level}, ${3:xoffset}, ${4:yoffset}, ${5:x}, ${6:y}, ${7:width}, ${8:height});$0"
+    },
+    {
+      "trigger": "createBuffer()",
+      "contents": "createBuffer();$0"
+    },
+    {
+      "trigger": "createFramebuffer",
+      "contents": "createFramebuffer();$0"
+    },
+    {
+      "trigger": "createProgram()",
+      "contents": "createProgram();$0"
+    },
+    {
+      "trigger": "createRenderbuffer()",
+      "contents": "createRenderbuffer();$0"
+    },
+    {
+      "trigger": "createShader(type)",
+      "contents": "createShader(${1:type});$0"
+    },
+    {
+      "trigger": "createTexture()",
+      "contents": "createTexture();$0"
+    },
+
+
+
+    {
+      "trigger": "cullFace(mode)",
+      "contents": "cullFace(${1:mode});$0"
+    },
+
+
+
+    {
+      "trigger": "deleteBuffer(buffer)",
+      "contents": "deleteBuffer(${1:buffer});$0"
+    },
+    {
+      "trigger": "deleteFramebuffer(framebuffer)",
+      "contents": "deleteFramebuffer(${1:framebuffer});$0"
+    },
+    {
+      "trigger": "deleteProgram(program)",
+      "contents": "deleteProgram(${1:program});$0"
+    },
+    {
+      "trigger": "deleteRenderbuffer(renderbuffer)",
+      "contents": "deleteRenderbuffer(${1:renderbuffer});$0"
+    },
+    {
+      "trigger": "deleteShader(shader)",
+      "contents": "deleteShader(${1:shader});$0"
+    },
+    {
+      "trigger": "deleteTexture(texture)",
+      "contents": "deleteTexture(${1:texture});$0"
+    },
+
+
+
+    {
+      "trigger": "depthFunc(func)",
+      "contents": "depthFunc(${1:func});$0"
+    },
+    {
+      "trigger": "depthMask(flag)",
+      "contents": "depthMask(${1:flag});$0"
+    },
+    {
+      "trigger": "depthRange(zNear,zFar)",
+      "contents": "depthRange(${1:zNear}, ${2:zFar});$0"
+    },
+    {
+      "trigger": "detachShader(program,shader)",
+      "contents": "detachShader(${2:program}, ${1:shader});$0"
+    },
+    {
+      "trigger": "disable(cap)",
+      "contents": "disable(${1:cap});$0"
+    },
+    {
+      "trigger": "disableVertexAttribArray(index)",
+      "contents": "disableVertexAttribArray(${1:index});$0"
+    },
+    {
+      "trigger": "drawArrays(mode,first,count)",
+      "contents": "drawArrays(${1:mode}, ${2:first}, ${3:count});$0"
+    },
+    {
+      "trigger": "drawElements(mode,first,count)",
+      "contents": "drawElements(${1:mode}, ${2:count}, ${3:type}, ${4:offset});$0"
+    },
+
+
+
+    {
+      "trigger": "enable(cap)",
+      "contents": "enable(${1:cap});$0"
+    },
+    {
+      "trigger": "enableVertexAttribArray(index)",
+      "contents": "enableVertexAttribArray(${1:index});$0"
+    },
+    {
+      "trigger": "finish()",
+      "contents": "finish();$0"
+    },
+    {
+      "trigger": "flush()",
+      "contents": "flush();$0"
+    },
+    {
+      "trigger": "framebufferRenderbuffer(target,attch,renderbuffertarget,renderbuffer)",
+      "contents": "framebufferRenderbuffer(${1:target}, ${2:attachment}, ${3:renderbuffertarget}, ${4:renderbuffer});$0"
+    },
+    {
+      "trigger": "framebufferTexture2D(target,attch,textarget,texture,lvl)",
+      "contents": "framebufferTexture2D(${1:target}, ${2:attachment}, ${3:textarget}, ${4:texture}, ${5:level});$0"
+    },
+    {
+      "trigger": "frontFace(mode)",
+      "contents": "frontFace(${1:mode});$0"
+    },
+
+
+
+    {
+      "trigger": "generateMipmap(target)",
+      "contents": "generateMipmap(${1:target});$0"
+    },
+
+
+
+    {
+      "trigger": "getActiveAttrib(program,index)",
+      "contents": "getActiveAttrib(${2:program}, ${1:index});$0"
+    },
+    {
+      "trigger": "getActiveUniform(program,index)",
+      "contents": "getActiveUniform(${2:program}, ${1:index});$0"
+    },
+    {
+      "trigger": "getAttachedShaders(program,index)",
+      "contents": "getAttachedShaders(${1:program});$0"
+    },
+
+
+
+    {
+      "trigger": "getAttribLocation(program,name)",
+      "contents": "getAttribLocation(${2:program}, '${1:name}');$0"
+    },
+    
+
+
+    {
+      "trigger": "getParameter(pname)",
+      "contents": "getParameter(${1:pname});$0"
+    },
+    {
+      "trigger": "getBufferParameter(target,pname)",
+      "contents": "getBufferParameter(${1:target}, ${2:pname});$0"
+    },
+
+
+
+    {
+      "trigger": "getError()",
+      "contents": "getError();$0"
+    },
+
+
+
+    {
+      "trigger": "getFramebufferAttachmentParameter(target,attachment,pname)",
+      "contents": "getFramebufferAttachmentParameter(${1:target}, ${2:attachment}, ${3:pname});$0"
+    },
+    {
+      "trigger": "getProgramParameter(program,pname)",
+      "contents": "getProgramParameter(${2:program}, ${1:pname});$0"
+    },
+    {
+      "trigger": "getProgramInfoLog(program)",
+      "contents": "getProgramInfoLog(${1:program});$0"
+    },
+    {
+      "trigger": "getRenderbufferParameter(target,pname)",
+      "contents": "getRenderbufferParameter(${1:target}, ${2:target});$0"
+    },
+    {
+      "trigger": "getShaderParameter(shader,pname)",
+      "contents": "getShaderParameter(${1:shader}, ${2:target});$0"
+    },
+    {
+      "trigger": "getShaderPrecisionFormat(shadertype,precisiontype)",
+      "contents": "getShaderPrecisionFormat(${1:shadertype}, ${2:precisiontype});$0"
+    },
+    {
+      "trigger": "getShaderInfoLog(shader)",
+      "contents": "getShaderInfoLog(${1:shader});$0"
+    },
+    
+
+
+    {
+      "trigger": "getShaderSource(shader)",
+      "contents": "getShaderSource(${1:shader});$0"
+    },
+    {
+      "trigger": "getTexParameter(target,pname)",
+      "contents": "getTexParameter(${1:target}, ${2:pname});$0"
+    },
+    {
+      "trigger": "getUniform(program,location)",
+      "contents": "getUniform(${2:program}, ${1:location});$0"
+    },
+    {
+      "trigger": "getUniformLocation(program,name)",
+      "contents": "getUniformLocation(${2:program}, '${1:name}');$0"
+    },
+    {
+      "trigger": "getVertexAttrib(index,pname)",
+      "contents": "getVertexAttrib(${1:index}, ${2:pname});$0"
+    },
+    {
+      "trigger": "getVertexAttribOffset(index,pname)",
+      "contents": "getVertexAttribOffset(${1:index}, ${2:pname});$0"
+    },
+
+
+    {
+      "trigger": "hint(target,mode)",
+      "contents": "hint(${1:target}, ${2:mode});$0"
+    },
+    {
+      "trigger": "isBuffer(buffer)",
+      "contents": "isBuffer(${1:buffer});$0"
+    },
+    {
+      "trigger": "isEnabled(cap)",
+      "contents": "isEnabled(${1:cap});$0"
+    },
+    {
+      "trigger": "isFramebuffer(framebuffer)",
+      "contents": "isFramebuffer(${1:framebuffer});$0"
+    },
+    {
+      "trigger": "isProgram(program)",
+      "contents": "isProgram(${1:program});$0"
+    },
+    {
+      "trigger": "isRenderbuffer(renderbuffer)",
+      "contents": "isRenderbuffer(${1:renderbuffer});$0"
+    },
+    {
+      "trigger": "isShader(shader)",
+      "contents": "isShader(${1:shader});$0"
+    },
+    {
+      "trigger": "isTexture(texture)",
+      "contents": "isTexture(${1:texture});$0"
+    },
+    {
+      "trigger": "lineWidth(width)",
+      "contents": "lineWidth(${1:width});$0"
+    },
+    {
+      "trigger": "linkProgram(program)",
+      "contents": "linkProgram(${1:program});$0"
+    },
+    {
+      "trigger": "pixelStorei(pname)",
+      "contents": "pixelStorei(${1:pname}, ${2:param});$0"
+    },
+    {
+      "trigger": "polygonOffset(factor)",
+      "contents": "polygonOffset(${1:factor}, ${2:units});$0"
+    },
+
+
+
+    {
+      "trigger": "readPixels(x,y,w,h,format,type,pixels)",
+      "contents": "readPixels(${1:x}, ${2:y}, ${3:width}, ${4:height}, ${5:format}, ${6:type}, ${7:pixels});$0"
+    },
+    {
+      "trigger": "renderbufferStorage(target,format,w,h)",
+      "contents": "renderbufferStorage(${1:target}, ${2:internalformat}, ${3:width}, ${4:height});$0"
+    },
+    {
+      "trigger": "sampleCoverage(value,invert)",
+      "contents": "sampleCoverage(${1:value}, ${2:invert});$0"
+    },
+    {
+      "trigger": "scissor(x,y,w,h)",
+      "contents": "scissor(${1:x}, ${2:y}, ${3:width}, ${4:height});$0"
+    },
+
+
+
+    {
+      "trigger": "shaderSource(shader,source)",
+      "contents": "shaderSource(${1:shader}, ${2:source});$0"
+    },
+    {
+      "trigger": "stencilFunc(func,ref,mask)",
+      "contents": "stencilFunc(${1:func}, ${2:ref}, ${3:mask});$0"
+    },
+    {
+      "trigger": "stencilFuncSeparate(face,func,ref,mask)",
+      "contents": "stencilFuncSeparate(${1:face}, ${2:func}, ${3:ref}, ${4:mask});$0"
+    },
+    {
+      "trigger": "stencilMask(mask)",
+      "contents": "stencilMask(${1:mask});$0"
+    },
+    {
+      "trigger": "stencilMaskSeparate(face,mask)",
+      "contents": "stencilMaskSeparate(${1:face}, ${2:mask});$0"
+    },
+    {
+      "trigger": "stencilOp(fail,zfail,zpass)",
+      "contents": "stencilOp(${1:fail}, ${2:zfail}, ${3:zpass});$0"
+    },
+    {
+      "trigger": "stencilOpSeparate(face,fail,zfail,zpass)",
+      "contents": "stencilOpSeparate(${1:face}, ${2:fail}, ${3:zfail}, ${4:zpass});$0"
+    },
+      
+
+    
+    {
+      "trigger": "texImage2D(w,h,border,pixels)",
+      "contents": "texImage2D(${1:target}, ${2:level}, ${3:internalformat}, ${4:width}, ${5:height}, ${6:border}, ${7:format}, ${8:type}, ${9:pixels});$0"
+    },
+    {
+      "trigger": "texImage2D(pixels)",
+      "contents": "texImage2D(${1:target}, ${2:level}, ${3:internalformat}, ${4:format}, ${5:type}, ${6:pixels});$0"
+    },
+    {
+      "trigger": "texImage2D(image)",
+      "contents": "texImage2D(${1:target}, ${2:level}, ${3:internalformat}, ${4:format}, ${5:type}, ${6:image});$0"
+    },
+    {
+      "trigger": "texImage2D(canvas)",
+      "contents": "texImage2D(${1:target}, ${2:level}, ${3:internalformat}, ${4:format}, ${5:type}, ${6:canvas});$0"
+    },
+    {
+      "trigger": "texImage2D(video)",
+      "contents": "texImage2D(${1:target}, ${2:level}, ${3:internalformat}, ${4:format}, ${5:type}, ${6:video});$0"
+    },
+      
+      
+    
+    {
+      "trigger": "texParameterf(target,pname,param)",
+      "contents": "texParameterf(${1:target}, ${2:pname}, ${3:param});$0"
+    },
+
+
+
+    {
+      "trigger": "texSubImage2D(w,h,pixels)",
+      "contents": "texSubImage2D(${1:target}, ${2:level}, ${3:xoffset}, ${4:yoffset}, ${5:width}, ${6:height}, ${7:format}, ${8:type}, ${9:pixels});$0"
+    },
+    {
+      "trigger": "texSubImage2D(pixels)",
+      "contents": "texSubImage2D(${1:target}, ${2:level}, ${3:xoffset}, ${4:yoffset}, ${5:format}, ${6:type}, ${7:pixels});$0"
+    },
+    {
+      "trigger": "texSubImage2D(image)",
+      "contents": "texSubImage2D(${1:target}, ${2:level}, ${3:xoffset}, ${4:yoffset}, ${5:format}, ${6:type}, ${7:image});$0"
+    },
+    {
+      "trigger": "texSubImage2D(canvas)",
+      "contents": "texSubImage2D(${1:target}, ${2:level}, ${3:xoffset}, ${4:yoffset}, ${5:format}, ${6:type}, ${7:canvas});$0"
+    },
+    {
+      "trigger": "texSubImage2D(video)",
+      "contents": "texSubImage2D(${1:target}, ${2:level}, ${3:xoffset}, ${4:yoffset}, ${5:format}, ${6:type}, ${7:video});$0"
+    },
+
+
+
+
+    {
+      "trigger": "uniform1f(location,x)",
+      "contents": "uniform1f(${1:location}, ${2:x});$0"
+    },
+    {
+      "trigger": "uniform1fv(location,v)",
+      "contents": "uniform1fv(${1:location}, ${2:v});$0"
+    },
+    {
+      "trigger": "uniform1i(location,x)",
+      "contents": "uniform1i(${1:location}, ${2:x});$0"
+    },
+    {
+      "trigger": "uniform1iv(location,v)",
+      "contents": "uniform1iv(${1:location}, ${2:v});$0"
+    },
+
+      
+    {
+      "trigger": "uniform2f(location,x,y)",
+      "contents": "uniform2f(${1:location}, ${2:x}, ${3:y});$0"
+    },
+    {
+      "trigger": "uniform2fv(location,v)",
+      "contents": "uniform2fv(${1:location}, ${2:v});$0"
+    },
+    {
+      "trigger": "uniform2i(location,x)",
+      "contents": "uniform2i(${1:location}, ${2:x}, ${3:y});$0"
+    },
+    {
+      "trigger": "uniform2iv(location,v)",
+      "contents": "uniform2iv(${1:location}, ${2:v});$0"
+    },
+
+
+    {
+      "trigger": "uniform3f(location,x,y,z)",
+      "contents": "uniform3f(${1:location}, ${2:x}, ${3:y}, ${4:z});$0"
+    },
+    {
+      "trigger": "uniform3fv(location,v)",
+      "contents": "uniform3fv(${1:location}, ${2:v});$0"
+    },
+    {
+      "trigger": "uniform3i(location,x)",
+      "contents": "uniform3i(${1:location}, ${2:x}, ${3:y}, ${4:z});$0"
+    },
+    {
+      "trigger": "uniform3iv(location,v)",
+      "contents": "uniform3iv(${1:location}, ${2:v});$0"
+    },
+
+
+    {
+      "trigger": "uniform4f(location,x,y,z)",
+      "contents": "uniform4f(${1:location}, ${2:x}, ${3:y}, ${4:z}, ${5:w});$0"
+    },
+    {
+      "trigger": "uniform4fv(location,v)",
+      "contents": "uniform4fv(${1:location}, ${2:v});$0"
+    },
+    {
+      "trigger": "uniform4i(location,x)",
+      "contents": "uniform4i(${1:location}, ${2:x}, ${3:y}, ${4:z}, ${5:w});$0"
+    },
+    {
+      "trigger": "uniform4iv(location,v)",
+      "contents": "uniform4iv(${1:location}, ${2:v});$0"
+    },
+
+
+
+    {
+      "trigger": "uniformMatrix2fv(location,transpose,value)",
+      "contents": "uniformMatrix2fv(${1:location}, ${2:transpose}, ${3:value});$0"
+    },
+    {
+      "trigger": "uniformMatrix3fv(location,transpose,value)",
+      "contents": "uniformMatrix3fv(${1:location}, ${2:transpose}, ${3:value});$0"
+    },
+    {
+      "trigger": "uniformMatrix4fv(location,transpose,value)",
+      "contents": "uniformMatrix4fv(${1:location}, ${2:transpose}, ${3:value});$0"
+    },
+
+
+
+    {
+      "trigger": "useProgram(program)",
+      "contents": "useProgram(${1:program});$0"
+    },
+    {
+      "trigger": "validateProgram(program)",
+      "contents": "validateProgram(${1:program});$0"
+    },
+
+
+
+    {
+      "trigger": "vertexAttrib1f(index,x)",
+      "contents": "vertexAttrib1f(${1:index}, ${2:x});$0"
+    },
+    {
+      "trigger": "vertexAttrib1fv(index,v)",
+      "contents": "vertexAttrib1fv(${1:index}, ${2:v});$0"
+    },
+    {
+      "trigger": "vertexAttrib2f(index,x,y)",
+      "contents": "vertexAttrib2f(${1:index}, ${2:x}, ${3:y});$0"
+    },
+    {
+      "trigger": "vertexAttrib2fv(index,v)",
+      "contents": "vertexAttrib2fv(${1:index}, ${2:v});$0"
+    },
+    {
+      "trigger": "vertexAttrib3f(index,x,y,z)",
+      "contents": "vertexAttrib3f(${1:index}, ${2:x}, ${3:y}, ${4:z});$0"
+    },
+    {
+      "trigger": "vertexAttrib3fv(index,v)",
+      "contents": "vertexAttrib3fv(${1:index}, ${2:v});$0"
+    },
+    {
+      "trigger": "vertexAttrib4f(index,x,y,z,w)",
+      "contents": "vertexAttrib4f(${1:index}, ${2:x}, ${3:y}, ${4:z}, ${5:w});$0"
+    },
+    {
+      "trigger": "vertexAttrib4fv(index,v)",
+      "contents": "vertexAttrib4fv(${1:index}, ${2:v});$0"
+    },
+
+
+
+    {
+      "trigger": "vertexAttribPointer(index,size,type,normalized,stride,offset)",
+      "contents": "vertexAttribPointer(${1:index}, ${2:size}, ${3:type}, ${4:normalized}, ${5:stride}, ${6:offset});$0"
+    },
+    {
+      "trigger": "viewport(x,y,width,height)",
+      "contents": "viewport(${1:x}, ${2:y}, ${3:width}, ${4:height});$0"
+    }
+  ]
+}

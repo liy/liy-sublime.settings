@@ -1,0 +1,41 @@
+<snippet>
+  <content><![CDATA[
+[
+  // front, red
+  1.0, 0.0, 0.0, 1.0, 
+  1.0, 0.0, 0.0, 1.0, 
+  1.0, 0.0, 0.0, 1.0, 
+  1.0, 0.0, 0.0, 1.0, 
+  // back, green
+  0.0, 1.0, 0.0, 1.0, 
+  0.0, 1.0, 0.0, 1.0, 
+  0.0, 1.0, 0.0, 1.0, 
+  0.0, 1.0, 0.0, 1.0, 
+  // top, blue
+  0.0, 0.0, 1.0, 1.0, 
+  0.0, 0.0, 1.0, 1.0, 
+  0.0, 0.0, 1.0, 1.0, 
+  0.0, 0.0, 1.0, 1.0, 
+  // bottom, yellow
+  1.0, 1.0, 0.0, 1.0,
+  1.0, 1.0, 0.0, 1.0,
+  1.0, 1.0, 0.0, 1.0,
+  1.0, 1.0, 0.0, 1.0,
+  // left, aqua
+  0.0, 1.0, 1.0, 1.0,
+  0.0, 1.0, 1.0, 1.0,
+  0.0, 1.0, 1.0, 1.0,
+  0.0, 1.0, 1.0, 1.0,
+  // right, fuchsia
+  1.0, 0.0, 1.0, 1.0,
+  1.0, 0.0, 1.0, 1.0,
+  1.0, 0.0, 1.0, 1.0,
+  1.0, 0.0, 1.0, 1.0
+];
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cube_colors</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js, source.js.embedded.html</scope>
+  <description>3d cube colors</description>
+</snippet>

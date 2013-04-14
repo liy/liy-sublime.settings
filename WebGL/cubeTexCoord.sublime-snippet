@@ -1,0 +1,42 @@
+<snippet>
+  <content><![CDATA[
+[
+  // y flipped
+  // front
+  0.0, 1.0,
+  1.0, 1.0,
+  1.0, 0.0,
+  0.0, 0.0,
+  // back
+  0.0, 1.0,
+  1.0, 1.0,
+  1.0, 0.0,
+  0.0, 0.0,
+  // top
+  0.0, 1.0,
+  1.0, 1.0,
+  1.0, 0.0,
+  0.0, 0.0,
+  // bottom
+  0.0, 1.0,
+  1.0, 1.0,
+  1.0, 0.0,
+  0.0, 0.0,
+  // left
+  0.0, 1.0,
+  1.0, 1.0,
+  1.0, 0.0,
+  0.0, 0.0,
+  // right
+  0.0, 1.0,
+  1.0, 1.0,
+  1.0, 0.0,
+  0.0, 0.0
+];
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cube_texCoord</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js, source.js.embedded.html</scope>
+  <description>3d cube texture coord</description>
+</snippet>
